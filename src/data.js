@@ -26,23 +26,11 @@ export default [
       reviewCount: 30,
     },
     location: "USA",
-    openSpots: "",
-  },
-  {
-    id: 3,
-    title: "Beauty & Lifestyle with Abel-Kayode",
-    description: "",
-    price: 50,
-    coverImg: require("./images/abel-kayode.jpg"),
-    stats: {
-      rating: 4.8,
-      reviewCount: 12,
-    },
-    location: "Online",
     openSpots: 1,
   },
+
   {
-    id: 4,
+    id: 3,
     title: "Tourism for You",
     description: "Tourism for You",
     price: 100,
@@ -54,7 +42,7 @@ export default [
     location: "Brazil",
   },
   {
-    id: 5,
+    id: 4,
     title: "Group Moutain Bike",
     description:
       "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
@@ -69,6 +57,20 @@ export default [
   },
 
   {
+    id: 5,
+    title: "Beauty & Lifestyle with Abel-Kayode",
+    description: "",
+    price: 50,
+    coverImg: require("./images/abel-kayode.jpg"),
+    stats: {
+      rating: 4.8,
+      reviewCount: 12,
+    },
+    location: "Nigeria",
+    openSpots: "",
+  },
+
+  {
     id: 6,
     title: "Floral Stores Nearby",
     description: "Floral Stores Nearby",
@@ -77,20 +79,6 @@ export default [
     stats: {
       rating: 3.8,
       reviewCount: 2,
-    },
-    location: "Online",
-    openSpots: 1,
-  },
-
-  {
-    id: 7,
-    title: "Lessons with Creative Paul",
-    description: "Floral Stores Nearby",
-    price: 500,
-    coverImg: require("./images/pexels.jpg"),
-    stats: {
-      rating: 4.9,
-      reviewCount: 20,
     },
     location: "Online",
     openSpots: 1,
