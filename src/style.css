@@ -69,10 +69,10 @@ section {
   overflow-x: auto;
   padding-left: 20px;
   padding-right: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 .card {
-  width: 150px;
+  width: 140px;
   font-size: 14px;
   flex: 0 0 auto;
   display: flex;
@@ -81,7 +81,7 @@ section {
 }
 
 .card--image {
-  width: 100%;
+  width: 90%;
   border-radius: 10px;
   margin-bottom: 5px;
 }
