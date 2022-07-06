@@ -10,13 +10,9 @@ body {
 }
 
 .container {
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: center; */
   background: #fff;
   margin: auto;
   max-width: 768px;
-  min-height: 320px;
   position: static;
 }
 
@@ -54,13 +50,13 @@ section {
 .hero--header {
   margin-top: 35px;
   margin-bottom: 10px;
-  font-size: 36px;
-  font-weight: 500;
+  font-size: 32px;
+  font-weight: bold;
 }
 .hero--text {
   text-align: center;
   padding: 0 20px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
   color: #222222;
 }
@@ -73,9 +69,10 @@ section {
   overflow-x: auto;
   padding-left: 20px;
   padding-right: 20px;
+  margin-bottom: 100px;
 }
 .card {
-  width: 175px;
+  width: 150px;
   font-size: 14px;
   flex: 0 0 auto;
   display: flex;
