@@ -1,4 +1,4 @@
-#Airbnb Online Experience CLone
+# Airbnb Online Experience Clone
 
 This clone project was created with Javascript & [ReactJS Framework](https://github.com/facebook/create-react-app).
 
