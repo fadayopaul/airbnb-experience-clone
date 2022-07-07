@@ -14,7 +14,10 @@ function Card(props) {
           <p> {badgeText}</p>
         </div>
       )}
-      <img src={props.item.coverImg} className="card--image" alt="" />
+
+      <div className="crop">
+        <img src={props.item.coverImg} className="card--image" alt="" />
+      </div>
 
       <div className="card--stats">
         <img
